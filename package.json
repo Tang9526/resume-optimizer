@@ -1,0 +1,39 @@
+{
+  "//": "⚠️ 修改依赖后必须同步沙箱镜像预热，否则沙箱 install 会超时。详见 skill-templates/SANDBOX-PREWARM.md",
+  "name": "meoo-react-vite-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3015 --host 0.0.0.0 --strictPort",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 3015 --host 0.0.0.0",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@emotion/is-prop-valid": "^1.4.0",
+    "date-fns": "^2.30.0",
+    "docx": "^9.7.1",
+    "framer-motion": "^11.16.1",
+    "jspdf": "^4.2.1",
+    "lucide-react": "^0.294.0",
+    "mammoth": "^1.12.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.0",
+    "recharts": "^2.10.0",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/three": "^0.160.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.4.0",
+    "vite": "^5.4.0"
+  }
+}

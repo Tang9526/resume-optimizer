@@ -1,0 +1,57 @@
+/* Hallmark · pre-emit critique: P4 H4 E4 S4 R4 V4
+ * macrostructure: Workbench · tone: brutalist · genre: playful
+ * theme: studied-DNA (source: https://v0.app/templates/neobrutalist-ui-design-g1jsp1c0OGv)
+ * paper oklch(96.5% 0.014 95) · accent oklch(88% 0.185 98) yellow
+ * display: heavy grotesque · body: Inter / PingFang / Microsoft YaHei
+ * nav: N7 brutal slab · footer: Ft5 · studied: yes · DNA-source: url
+ * paper-band: light · display-style: display-heavy · accent-hue: warm
+ */
+:root {
+  --color-paper: oklch(96.5% 0.014 95);
+  --color-paper-2: oklch(99.2% 0.004 95);
+  --color-paper-3: oklch(92.5% 0.022 95);
+  --color-ink: oklch(18% 0.025 80);
+  --color-ink-2: oklch(32% 0.02 80);
+  --color-muted: oklch(42% 0.018 80);
+  --color-rule: oklch(18% 0.025 80);
+  --color-rule-2: oklch(18% 0.025 80);
+  --color-accent: oklch(88% 0.185 98);
+  --color-accent-ink: oklch(18% 0.025 80);
+  --color-accent-2: oklch(88% 0.185 98);
+  --color-focus: oklch(18% 0.025 80);
+  --color-good: oklch(48% 0.13 145);
+  --color-warning: oklch(62% 0.14 75);
+  --color-error: oklch(54% 0.21 25);
+  --color-glow: oklch(88% 0.185 98 / 0);
+  --color-shadow: oklch(18% 0.025 80);
+  --font-display: "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", "Arial Black", Impact, sans-serif;
+  --font-body: Inter, "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  --font-mono: ui-monospace, "Cascadia Code", "SF Mono", Menlo, Consolas, monospace;
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 72px;
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 20px;
+  --text-xl: 28px;
+  --text-display: clamp(3rem, 6vw, 5.4rem);
+  --rule-hair: 3px;
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-pill: 0px;
+  --shadow-brutal: var(--space-2xs) var(--space-2xs) 0 var(--color-ink);
+  --dur-fast: 150ms;
+  --dur-base: 220ms;
+  --dur-slow: 420ms;
+  --dur-pulse: 4s;
+  --ease-out: cubic-bezier(.16, 1, .3, 1);
+  --ease-in: cubic-bezier(.7, 0, .84, 0);
+  --ease-in-out: cubic-bezier(.65, 0, .35, 1);
+}
